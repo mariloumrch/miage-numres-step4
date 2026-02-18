@@ -41,6 +41,10 @@ async function showQuestion() {
     proposalsElement.appendChild(button);
     button.addEventListener("click", selectAnswer);
   });
+
+  // focus sur le premier bouton pour pas avoir à tabuler
+  const firstBtn = proposalsElement.querySelector("button");
+  if (firstBtn) firstBtn.focus();
 }
   
 async function selectAnswer(e) {

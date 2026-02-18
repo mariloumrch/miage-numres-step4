@@ -57,13 +57,13 @@ Réponse: Non car les liens sont pas distinguables sauf par la couleur.
 Screen:![alt text](<Capture d’écran 2026-02-18 à 11.07.37.png>)
 
 # Q17:  Proposition 1
-Description:
-Nb d'actions gagnée : 
+Description: Ajout de tabindex="-1" sur tous les liens des réseaux sociaux pour que le Tab les saute. Comme ça l'utilisateur arrive direct sur le quizz sans devoir traverser les 20 icônes.
+Nb d'actions gagnée : 20 (les 20 liens sociaux qu'on skip)
 
 # Q18:  Proposition 2
-Description:
-Nb d'actions gagnée : 
+Description: Focus automatique sur le premier bouton de réponse quand une nouvelle question apparaît. Plus besoin de tabuler depuis le haut de la page pour atteindre les propositions.
+Nb d'actions gagnée : 2 par question (on évite de re-tabuler jusqu'aux boutons)
 
 # Q19:  Proposition 3
-Description:
-Nb d'actions gagnée : 
+Description: Changement de aria-live="polite" en aria-live="assertive" sur la zone de question pour que le lecteur d'écran lise la question immédiatement quand elle change, sans attendre que l'utilisateur navigue dessus.
+Nb d'actions gagnée : 1 par question (pas besoin de chercher la question manuellement)
