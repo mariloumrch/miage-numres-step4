@@ -33,9 +33,11 @@ async function showQuestion() {
   questionElement.innerText = question.label
   
   proposalsElement.innerHTML = "";
-  question.proposals.forEach(proposal => {
+  question.proposals.forEach((proposal, index) => {
     const button = document.createElement("button");
     button.innerText = proposal.label;
+    button.setAttribute("aria-label", `Réponse ${index + 1}: ${proposal.label}`);
+    button.setAttribute("type", "button");
     proposalsElement.appendChild(button);
     button.addEventListener("click", selectAnswer);
   });
@@ -67,6 +69,6 @@ async function showResult() {
 
   quiz.innerHTML = `
     <h1>Quizz Finis!</h1>
-    <p>Ton score: ${score}/${quizzData.length}</p>
+    <p role="status" aria-live="assertive">Ton score: <strong>${score}/${quizzData.length}</strong></p>
   `;
 }

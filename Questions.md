@@ -13,9 +13,18 @@ Réponse: 3 fois
 
 # Q5: Donner 3 roles ARIA et 3 propriété ARIA
 Réponse: 
+Roles:
+-role="region" -> section du quizz
+role="navigation" -> section réseaux sociaux
+role="status" -> score final
+
+Propriété
+aria-label -> étiquette accessible des icônes et boutons
+aria-live="assertive" -> annonce dynamique du score
+aria-labelledby -> lie la région au titre
 
 # Q6: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen: ![alt text](<Capture d’écran 2026-02-18 à 10.24.55.png>)
 
 # Q7: L'une des best practice de l'ARIA est "ne pas utiliser l'ARIA" pouvez nous expliquer pourquoi d'après vous ?
 Réponse:
