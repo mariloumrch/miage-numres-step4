@@ -2,13 +2,12 @@ import { initQuizz } from './quizz.js';
 import './style.css';
 
 document.querySelector('#app').innerHTML = `
-        <div class="header" style="cursor:pointer;">
+        <header style="cursor:pointer;">
           <h1>My Quizz</h1>
           Pour accéder a la page /about <a href="about/" style="text-decoration: none;" aria-label="Aller à la page à propos">accédez à la page à propos</a>
-        </div>
+        </header>
 
-
-        <div class="topnav" role="navigation" aria-label="Réseaux sociaux">
+        <nav class="topnav" aria-label="Réseaux sociaux">
           <a href="#" class="fa fa-facebook" aria-label="Facebook"></a>
           <a href="#" class="fa fa-twitter" aria-label="Twitter"></a>
           <a href="#" class="fa fa-google" aria-label="Google"></a>
@@ -29,29 +28,30 @@ document.querySelector('#app').innerHTML = `
           <a href="#" class="fa fa-yahoo" aria-label="Yahoo"></a>
           <a href="#" class="fa fa-reddit" aria-label="Reddit"></a>
           <a href="#" class="fa fa-rss" aria-label="Flux RSS"></a>
-        </div>
+        </nav>
 
         <div class="row">
           <div class="leftcolumn">
-            <div class="card">
+            <section class="card">
               <h1>Nom étudiant</h1>
               <h5>description</h5>
-              <div id="quiz" role="region" aria-labelledby="quiz-title">
+              <section id="quiz" aria-labelledby="quiz-title">
                 <h2 id="quiz-title">A TOI DE JOUER</h2>
-                <div id="question" role="main" aria-live="polite"></div>
+                <div id="question" aria-live="polite"></div>
                 <div id="proposals" role="group" aria-label="Propositions de réponse"></div>
-              </div>
-            </div>
+              </section>
+            </section>
           </div>
           <div class="rightcolumn">
-            <div class="card">
+            <section class="card">
               <img src="/question.png" width="500" height="600" alt="Illustration de la question du quizz">
-            </div>
+            </section>
+          </div>
         </div>
 
-        <div class="footer" role="contentinfo">
+        <footer>
           <h2>@2024</h2>
-        </div>
+        </footer>
 `
 
 initQuizz();

@@ -27,13 +27,13 @@ aria-labelledby -> lie la région au titre
 Screen: ![alt text](<Capture d’écran 2026-02-18 à 10.24.55.png>)
 
 # Q7: L'une des best practice de l'ARIA est "ne pas utiliser l'ARIA" pouvez nous expliquer pourquoi d'après vous ?
-Réponse:
+Réponse: Les éléments natifs HTML sont mieux reconnus que les attributs ARIA, donc il vaut mieux faire du HTML sémantique natif plûtot que de l'ARIA. 
 
 # Q8: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen: ![alt text](<Capture d’écran 2026-02-18 à 10.32.07.png>)
 
 # Q9: Pourquoi le score de lighthouse n'a pas augmenté d'après vous ?
-Réponse:
+Réponse: Parce que lighthouse ne test pas tous les critères d'accessibilités, pour amélioré encore le score il faudrait aussi travailler sur le contraste,la taille de certai éléments...
 
 # Q10: Quel est la valeur du rapport de contraste actuel :
 Réponse:
