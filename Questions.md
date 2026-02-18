@@ -54,7 +54,7 @@ Screen: ![alt text](<Capture d’écran 2026-02-18 à 10.52.47.png>)
 Réponse: Non car les liens sont pas distinguables sauf par la couleur. 
 
 # Q16: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen:![alt text](<Capture d’écran 2026-02-18 à 11.07.37.png>)
 
 # Q17:  Proposition 1
 Description:
