@@ -36,22 +36,22 @@ Screen: ![alt text](<Capture d’écran 2026-02-18 à 10.32.07.png>)
 Réponse: Parce que lighthouse ne test pas tous les critères d'accessibilités, pour amélioré encore le score il faudrait aussi travailler sur le contraste,la taille de certai éléments...
 
 # Q10: Quel est la valeur du rapport de contraste actuel :
-Réponse:
+Réponse: 2.38
 
 # Q11: Quel est la valeur du score AA :
-Réponse:
+Réponse: 4.5
 
 # Q12: Quel est la valeur du score AAA :
-Réponse:
+Réponse: 7
 
 # Q13: Comment pouvez vous changer la valeur du contraste de votre texte ?
-Réponse:
+Réponse: En changeant les couleurs pour que le contraste soit plus visible. 
 
 # Q14: Ajouter le screen de votre score Lighthouse
-Screen:
+Screen: ![alt text](<Capture d’écran 2026-02-18 à 10.52.47.png>)
 
 # Q15: Êtes vous capable de déterminer visuellement ce qui est un lien ou pas en appliquant chaque altérations ?
-Réponse:
+Réponse: Non car les liens sont pas distinguables sauf par la couleur. 
 
 # Q16: Ajouter le screen de votre score Lighthouse
 Screen:
